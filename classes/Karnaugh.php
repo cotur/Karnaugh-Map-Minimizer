@@ -24,7 +24,7 @@ class Karnaugh
     private $type;
     private $numbs;
 
-    public function __construct($n = 2,$type,$numbs)
+    public function __construct($n = 2, $type, $numbs = array())
     {
         $this->n = $n;
         $this->limit = pow(2,$n);
